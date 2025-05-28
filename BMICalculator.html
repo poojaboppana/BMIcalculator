@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="./BMICalculator.css">
 </head>
 <body>
     <div class="bmi">
-      <input type="number" value="weight" id="weight" ><br>
-       <input type="number" value="height" id="height" >
-       <button type="submit">Check</button>
+        <h2 >Check your BMI</h2>
+      <input type="number" value="weight" placeholder="Enter your Weight(in kg)" id="weight" ><br>
+       <input type="number" value="height" placeholder="Enter your height(in m)" id="height" ><br>
+       <button type="submit" onclick="checkbmi()">Check</button>
+       <p id="res"></p>
     </div>
 </body>
+<script src="./BMICalculator.js"></script>
 </html>
