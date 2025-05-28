@@ -1,0 +1,43 @@
+body{
+    background-color: #4300FF;
+    
+}
+h2{
+    font-size: 50px;
+}
+.bmi{
+    background-color: #00CAFF;
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px #533B4D;
+}
+input{
+    margin: 10px 0px 10px 0px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color:#533B4D ;
+    color: bisque;
+    border-radius: 20px;
+cursor: pointer;
+}
+button:active{
+    background-color: beige;
+    color: black;
+    
+}
+p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #F93827;
+}
